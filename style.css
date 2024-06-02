@@ -32,7 +32,7 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
-a {
+.barra a {
     color: rgb(178, 224, 140);
     text-decoration: none;
     list-style: none;
@@ -40,4 +40,54 @@ a {
 #busqueda{
     width: 400px;
     height: 30px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.portada__titulo{
+    color: rgb(178, 224, 140);
+}
+.portada__imagen img{
+    height: 25rem;
+}
+.portada__botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.boton__learnmore, .boton__calltoaction{
+    border: 1px solid rgb(178, 224, 140);
+    padding: 0.8rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    list-style: none;
+}
+.boton__learnmore{
+    background-color: rgb(178, 224, 140);
+    color: black;
+}
+.boton__calltoaction{
+    background-color: black;
+    color: rgb(178, 224, 140);
+}
+.contenedor__textinfo{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+}
+.textinfo{
+    font-size: 1.5rem;
+    width: 50vw;
+    padding-top: 2rem;
 }
