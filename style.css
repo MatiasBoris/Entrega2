@@ -14,11 +14,11 @@ body{
     align-content: center;
 }
 #logo__barra{
-    width: 50px;
+    width: 90px;
     height: 50px;
 }
 picture img{
-    height: 60px;
+    height: 70px;
 }
 #carrito{
     width: 25px;
@@ -36,6 +36,7 @@ nav {
     color: rgb(178, 224, 140);
     text-decoration: none;
     list-style: none;
+    font-family: "Oswald", sans-serif;
 }
 #busqueda{
     width: 400px;
@@ -49,7 +50,8 @@ nav {
     background-color: black;
 }
 .portada__titulo{
-    color: rgb(178, 224, 140);
+    color: rgb(178, 224, 140); 
+    font-family: "Poppins", sans-serif;
 }
 .portada__imagen img{
     height: 25rem;
@@ -90,4 +92,6 @@ nav {
     font-size: 1.5rem;
     width: 50vw;
     padding-top: 2rem;
+    font-style: italic;
+    font-family: "Oswald", sans-serif;
 }
