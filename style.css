@@ -146,6 +146,7 @@ picture img{
 }
 .titulo__beneficio3, .titulo__beneficio2, .titulo__beneficio1{
     font-size: 16px;
+    text-align: center;
 }
 .parrafo__beneficio3, .parrafo__beneficio2, .parrafo__beneficio1{
     font-size: 12px;
