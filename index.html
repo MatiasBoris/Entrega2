@@ -5,16 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valhalla Indumentaria</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/imagenes/logo.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Seymour+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="nav__bar">
-            <picture>
-                <img src="/imagenes/logo_nombre.png" alt="Logo" id="logo__barra">
-            </picture>
+    <div class="contenedor">
+        <div class="contenedor__barra">
+            <img src="/imagenes/logo_nombre.png" alt="Logo" id="logo__barra">
             <ul class="barra">
                 <li><input type="search" placeholder="Buscar..." id="busqueda"></li>
                 <li><a href="#">Productos</a></li>
@@ -22,48 +17,39 @@
                 <li><a href="#">Mi Cuenta</a></li>
                 <li><a href="#"><img src="/imagenes/carrito-removebg-preview.png" alt="Carrito" id="carrito"></a></li>
             </ul>
-        </nav>
-    </header>
-    <div class="contenedor">
-        <div class="portada__titulo">
-            <h1 class="titulo__portada">Tendencias que te inspiran, estilo que te define</h1>
-            <div class="portada__botones">
-                <a href="#" class="boton__calltoaction"> Call to Action</a>
-                <a href="#" class="boton__learnmore">Learn More</a>
+        </div>
+        <div class="contenedor__hero">
+            <div class="hero">
+                <h1 class="hero__titulo">Tendencias que te inspiran, estilo que te define</h1>
+                <div class="hero__botones">
+                    <a href="#" class="boton1"> Call to Action</a>
+                    <a href="#" class="boton2">Learn More</a>
+                </div>
             </div>
+                <img src="/imagenes/portada-negro.png" alt="portada" class="hero__imagen">
         </div>
-        <div class="portada__imagen">
-            <img src="/imagenes/portada-negro.png" alt="portada" class="portada__imagen__imagen">
+        <div class="contenedor__slogan">
+            <h2 class="slogan">Inspirar a nuestros clientes a través de nuestras prendas, enriquecer su estilo de vida y resaltar su personalidad, contribuyendo así a su bienestar emocional y autoestima".</h2>
         </div>
-    </div>
-    <div class="contenedor__textinfo">
-        <p class="textinfo"> "Inspirar a nuestros clientes a través de nuestras prendas,
-             enriquecer su estilo de vida y resaltar su personalidad, contribuyendo así a su bienestar emocional y autoestima".</p>
-    </div>
-    <div class="card__contenedor">
-        <ul class="card__beneficio">
-            <ul class="card__cards">
-                <li class="card__beneficio1">
-                    <img src="/imagenes/camion.svg" alt="camion" class="img__camion">
-                    <h2 class="titulo__beneficio1">Envío Gratis</h2>
-                    <p class="parrafo__beneficio1">Con la compra mínima de $100.000</p>
-                </li>
-                <li class="card__beneficio2">
-                    <img src="/imagenes/descuento.svg" alt="descuento" class="img__descuento">
-                    <h2 class="titulo__beneficio2">Descuentos</h2>
-                    <p class="parrafo__beneficio2">Con la compra de 2 prendas, la tercera será a un 50%</p>
-                </li>
-                <li class="card__beneficio3">
-                    <img src="/imagenes/tarjeta.svg" alt="tarjeta" class="img__tarjeta">
-                    <h2 class="titulo__beneficio3">Compra de manera segura</h2>
-                    <p class="parrafo__beneficio3">Protegemos tus datos</p>
-                </li> 
-            </ul>
-            </ul>
-    </div>
-    <div class="contenedor__tarjeta__contacto">
-        <div class="tarjeta__contacto">
-            <div class="contenedor__contacto">
+        <ul class="contenedor__tarjetas">
+            <li class="tarjeta">
+                <img src="/imagenes/camion.svg" alt="camion" class="tarjeta__imagen">
+                <h2 class="tarjeta__titulo">Envío Gratis</h2>
+                <p class="tarjeta__parrafo">Con la compra mínima de $100.000</p>
+            </li>
+            <li class="tarjeta">
+                <img src="/imagenes/descuento.svg" alt="descuento" class="tarjeta__imagen">
+                <h2 class="tarjeta__titulo">Descuentos</h2>
+                <p class="tarjeta__parrafo">Con la compra de 2 prendas, la tercera será a un 50%</p>
+            </li>
+            <li class="tarjeta">
+                <img src="/imagenes/tarjeta.svg" alt="tarjeta" class="tarjeta__imagen">
+                <h2 class="tarjeta__titulo">Compra de manera segura</h2>
+                <p class="tarjeta__parrafo">Protegemos tus datos</p>
+            </li> 
+        </ul>
+        <div class="contenedor__footer">
+            <div class="contacto">
                 <h3 class="titulo__contacto">Contáctanos</h3>
                 <ul class="lista__contacto">
                     <li class="contacto__direccion">Albatros 122, Mar de las Pampas</li>
@@ -71,22 +57,22 @@
                     <li class="contacto__mail">valhalla_indumentaria@gmail.com</li>
                 </ul>
             </div>
-            <div class="contenedor__transparencia">
+            <div class="transparencia">
                 <h3>Transparencia, Contabilidad y Seguridad</h3>
                 <p>Estamos comprometidos con tu privacidad. Aprende mas sobre los pasos que estamos tomando para proteger la información y privacidad de millones de personas con las que nos conectamos cada día.</p>
             </div>
-            <div class="contenedor__redes">
+            <div class="redes">
                 <h3>Encontranos en</h3>
                 <ul class="redes__link">
-                    <li class="link__facebook"> <a href="#"><img src="/imagenes/facebook.svg" alt="facebook" class="img__contactos"></a></li>
-                    <li class="link__instagram"> <a href="#"><img src="/imagenes/instagram.svg" alt="instagram" class="img__contactos"></a></li> 
-                    <li class="link__twitter"> <a href="#"><img src="/imagenes/twitter.svg" alt="twitter" class="img__contactos"></a></li> 
+                    <li class="link"> <a href="#"><img src="/imagenes/facebook.svg" alt="facebook" class="img__redes"></a></li>
+                    <li class="link"> <a href="#"><img src="/imagenes/instagram.svg" alt="instagram" class="img__redes"></a></li> 
+                    <li class="link"> <a href="#"><img src="/imagenes/twitter.svg" alt="twitter" class="img__redes"></a></li> 
                 </ul>
             </div>
         </div>
+        <div class="contenedor__pie">
+            <p>© Valhalla Indumentaria- 2024. Defensa de las y los consumidores. Para reclamos <a href="https://autogestion.produccion.gob.ar/consumidores" target="_blank"> <u>ingrese aquí</u></a></p>
+        </div>
     </div>
-    <footer>
-        <p>© Valhalla Indumentaria- 2024. Defensa de las y los consumidores. Para reclamos <a href="https://autogestion.produccion.gob.ar/consumidores" target="_blank"> <u>ingrese aquí</u></a></p>
-    </footer>
 </body>
 </html>
