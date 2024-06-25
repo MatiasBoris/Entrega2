@@ -228,9 +228,6 @@ footer p a{
     text-decoration: none;
 }
 @media (max-width: 992px){
-    .body{
-        max-width: 100%;
-    }
     .contenedor{
         width: 980px;
     }
@@ -270,5 +267,36 @@ footer p a{
     }
     .contenedor__tarjeta__contacto{
         width: 980px;
+    }
+}
+@media (max-width: 500px){
+    #logo-barra{
+        width: 70px;
+        height: 50px;
+    }
+    .nav__bar{
+        display: flex;
+    }
+    .barra a {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+    #busqueda{
+        display: none;
+    }
+    .barra{
+        margin-right: 500px;
+    }
+    .titulo__portada{
+        font-size: 10px;
+    }
+    .portada__imagen__imagen{
+        width: 250px;
+        height: 100px;
+    }
+    .contenedor{
+        display: flex;
+        justify-content: flex-start;
     }
 }
